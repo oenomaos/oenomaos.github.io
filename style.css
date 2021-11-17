@@ -1,0 +1,284 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:wght@100&family=Dancing+Script&family=Passions+Conflict&family=Petemoss&family=Sassy+Frass&family=Yuji+Boku&display=swap');body {
+  font-family: 'Advent Pro', sans-serif;
+    padding: 0%;
+    margin: 0%;
+    }
+ul {
+    font-family: 'Passions Conflict', cursive;
+    font-weight: bold;
+    font-size: larger;
+
+}
+li {
+ list-style-type: none; }
+h2 {
+    text-transform: uppercase;
+    
+    text-align: center;
+    padding-top: auto;
+    font-size: 2em;
+    
+}
+a {
+    text-decoration: none;
+    color: black ;
+}
+ h1 {
+     text-align: center;
+     text-transform: capitalize;
+     font-size: 4em;
+   font-family: 'Dancing Script', cursive;
+ }
+ h3 {
+     text-align: center;
+     font-weight: bold;
+     font-size: 1em;
+ }
+ h4{
+     text-align: center;
+     font-weight: bold;
+     font-size: 3em;
+
+ }
+ 
+ 
+
+/* ....................................NAVBAR.....................................................*/
+header nav {
+overflow: hidden;
+background-color: rgb(158, 107, 40) ;
+position: fixed;
+width: 100%;
+opacity: 0.9;
+}
+header li {
+float: right;
+font-size: 2.3em;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    padding: 18px 16px;
+}
+#logo {
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    float:left ;
+    }
+
+    
+    
+/*.................................... IMAGE PRINCIPALE................................................. */
+#imagePrincipale {
+    padding-top: 60px;
+background: url(media/belle\ vue\ derriere.jpeg) no-repeat 50% 50%;
+background-size: cover;
+height: 799px;
+}
+h1 {
+    font-family: 'Dancing Script' , cursive;
+ text-align: center;
+ color: antiquewhite;   
+ font-size: 6em;
+text-shadow: 4px 2px 2px black;
+ margin-top: 120px;
+}
+h3{
+    font-family:  'Passions Conflict', cursive;
+    color: bisque;
+    font-size: 5em;
+    text-shadow: 4px 5px 1px black;
+}
+
+
+#premierTrait {
+    height: 3px;
+    width: 40%;
+    margin: -3px auto;
+    background-color: antiquewhite; 
+    box-shadow: 2px 3px 2px;
+}
+ 
+/* .......................................PRESENTATION........................................ */ 
+#presentation  {
+    background-color:antiquewhite ;
+    padding: 10px 0px 100px 0px
+    ;
+
+}
+
+#textintroduction {
+    padding: 0px 20%;
+    font-style: normal;
+
+   
+}
+#prestations{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 30px;
+    box-shadow:2px 6px 2px ;
+
+}
+
+.imagesPrestations h4 {
+
+    font-family: cursive; }
+
+.imagesPrestations img:hover {
+opacity: 0.5;
+transform: scale(1.05);
+transition: 0.6s ease-in-out;
+}
+/* ....................................MACONNERIE........................................... */
+
+
+.laMaconnerie img:hover {
+    opacity: 0.6;
+    transform: scale(1.06);
+    transition: 1s ease-in-out;
+    box-shadow:2px 9px 2px ;
+}
+#laMaconnerie {
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 30px;
+    box-shadow:2px 6px 2px ;
+}
+/* ....................................SUITE.............................................................. */
+#suite {
+    font-size: medium;
+    text-shadow: 2px 3px 5px;
+    padding: 1% 1%;
+    
+}
+#charpente {
+    background: url(media/ouvrier\ charpente.jpeg)no-repeat 50% 50%;
+    background-size: cover;
+  
+
+}
+#huisserie {
+    background: url(media/huisserie.jpg)no-repeat 50% 50%;
+    background-size: cover;
+
+
+}
+#menuiserie {
+    background: url(media/menuiserie\ porte.jpg)
+    no-repeat 50% 50%;
+background-size: cover;
+
+}
+#electricite {
+    background: url(media/ele\ plombier.jpg)no-repeat 50% 50%;
+    background-size: cover;
+
+}
+#terrassement {
+    background: url(media/terrassement.jpg)
+    no-repeat 50% 50%;
+background-size: cover;
+
+}
+#cles {
+    background: url(media/remise\ clé.jpg)
+    no-repeat 50% 50%;
+background-size: cover;
+
+}
+#suite  li {
+margin: 65px 100px 0 100px;
+height: 226px;
+width: 55%;
+max-width: 550px;
+float: left;
+box-shadow: 6px 6px 28px -1px rgba(0,0,0,0.75);
+
+
+}
+#suite p {
+    height: 45px;
+width: 235px;
+background-color: rgb(158, 107, 40);
+float: right;
+margin: 50px -180px 0 0;
+font-size: 1.9em;
+text-align: center;
+padding-top: 15px;
+box-shadow: 4px 4px 0 1px rgba(90.161.43.1) ;
+}
+#suite #huisserie, #suite #electricite, #suite #cles {
+    float: right;
+    
+}
+#huisserie p, #electricite p , #cles p  {
+    float: left;
+    background-color: burlywood;
+    margin-left: -180px;
+    box-shadow: -4px 4px 0 1px rgba(15,154,156,1);
+}
+
+
+
+
+
+/* ..............................................FOOTER................................................ */
+
+footer {
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    padding:  1em 40em 50% ;
+   
+    font-weight: bold;
+    float:left ;
+    background-color: rgb(80, 50, 29);
+
+    }
+form {
+    margin: 0 auto;
+    max-width: 900px;
+}
+input, textarea ,button {
+
+    border: none ;
+    padding: 10% ;
+    margin: 2px 0;
+    font-size: 1.2em;
+    border-radius: 8px;
+    }
+    textarea {
+        height: 100%;
+
+
+    }
+    button{
+        font-size: 1.2em;
+        background-color: blanchedalmond;
+
+    }
+    button:hover {
+        background-color: coral;
+        color:black;
+        cursor: pointer;
+        transition: 0.4em;
+
+    }
+    #deuxiemetrait {
+        height: 1px;
+        width: 50% 50%;
+        background-color: black;
+        margin: 60px auto;
+
+
+    }
+    #laforet {
+        background-color: aqua;
+        color: aquamarine;
+    }
